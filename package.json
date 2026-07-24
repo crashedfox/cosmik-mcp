@@ -1,0 +1,19 @@
+{
+  "name": "cosmik-mcp",
+  "version": "1.1.0",
+  "description": "Cosmik — live space data for AI agents: upcoming rocket launches, ISS pass predictions and launch news (MCP server, stdio)",
+  "type": "module",
+  "main": "server.js",
+  "bin": { "cosmik-mcp": "server.js" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/crashedfox/cosmik-mcp" },
+  "homepage": "https://gocosmik.com/integrations",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
